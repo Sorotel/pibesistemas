@@ -1,0 +1,68 @@
+.project {
+    padding: 80px 0;
+    position: relative;
+    background: #3a3a3a;
+}
+.project h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.project p {
+    color: #b8b8b8;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
+/* -----------------------CARD -------------------------------------------------*/
+
+.projtxtx {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+}
+.projimgbx:hover .projtxtx {
+    top: 50%;
+    opacity: 1;
+    background-color: #263066;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.buttonCard{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 10px;
+    border: 1px solid #263066;
+    border-radius: 20px;
+    letter-spacing: 0.8px;
+    margin-left: 10px;
+}
+.buttonCard:hover svg{
+    margin-left: 10px;
+}
+
+
+
+
+/* ------------------------ */
+.skill {
+    padding: 10% 0 50px 0;
+    position: relative;
+}
+.skillbx {
+    background: #1e2644;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
